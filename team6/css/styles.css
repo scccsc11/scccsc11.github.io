@@ -428,7 +428,8 @@ padding: 6px 10px;
 
 @media (max-width: 400px) {
     body {
-        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
     .promo-bar {
         font-size: 10px;
